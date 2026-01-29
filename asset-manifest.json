@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/solar-kaki/static/css/main.a97747d2.css",
+    "main.css": "/solar-kaki/static/css/main.8e98adc8.css",
     "main.js": "/solar-kaki/static/js/main.8e53cd83.js",
     "static/js/453.c0177f77.chunk.js": "/solar-kaki/static/js/453.c0177f77.chunk.js",
     "static/media/inverter-25kw.jpg": "/solar-kaki/static/media/inverter-25kw.4c018b0479005ee00c57.jpg",
     "index.html": "/solar-kaki/index.html",
-    "main.a97747d2.css.map": "/solar-kaki/static/css/main.a97747d2.css.map",
+    "main.8e98adc8.css.map": "/solar-kaki/static/css/main.8e98adc8.css.map",
     "main.8e53cd83.js.map": "/solar-kaki/static/js/main.8e53cd83.js.map",
     "453.c0177f77.chunk.js.map": "/solar-kaki/static/js/453.c0177f77.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a97747d2.css",
+    "static/css/main.8e98adc8.css",
     "static/js/main.8e53cd83.js"
   ]
 }
