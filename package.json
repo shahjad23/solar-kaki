@@ -2,7 +2,7 @@
   "name": "solar-tech",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shahjad23.github.io/solar-kaki",
+  "homepage": "/",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@testing-library/dom": "^10.4.1",
