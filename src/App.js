@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import Layout from './components/Layout';
@@ -18,6 +18,27 @@ const NotFound = () => (
 );
 
 export default function App() {
+  useEffect(() => {
+    // Function to find and remove the Netlify badge iframe or container
+    const removeNetlifyBadge = () => {
+      const badges = document.querySelectorAll('iframe[src*="netlify"], #netlify-badge, .netlify-badge');
+      badges.forEach((el) => el.remove());
+
+      const allDivs = document.querySelectorAll('div');
+      allDivs.forEach((div) => {
+        if (div.innerText && div.innerText.includes('Powered by Netlify')) {
+          div.remove();
+        }
+      });
+    };
+
+    // Run immediately and also set a short interval to catch it if it loads late
+    removeNetlifyBadge();
+    const interval = setInterval(removeNetlifyBadge, 300);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <Routes>
       <Route element={<Layout />}>
