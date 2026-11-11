@@ -9,3 +9,10 @@ body {
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+
+iframe[src*="netlify"],
+div:has(> iframe[src*="netlify"]) {
+display: none !important;
+visibility: hidden !important;
+pointer-events: none !important;
+}
