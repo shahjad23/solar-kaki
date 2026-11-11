@@ -1,0 +1,13 @@
+key,value
+cost_per_kw,60000
+tariff,8
+units_per_kw_day,4
+tariff_rise_pct,3
+panel_drop_pct,0.5
+loan_rate_pct,9
+loan_years,5
+down_payment_pct,20
+default_bill,5000
+systems_installed,
+capacity_kw,
+indiamart_url,
